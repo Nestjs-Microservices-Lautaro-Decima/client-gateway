@@ -11,8 +11,8 @@ import { envs, ORDER_SERVICE } from 'src/config';
         name: ORDER_SERVICE,
         transport: Transport.TCP,
         options: {
-          host: envs.ORDERS_MS_HOST,
-          port: envs.ORDERS_MS_PORT,
+          // host: envs.ORDERS_MS_HOST,
+          // port: envs.ORDERS_MS_PORT,
         },
       },
     ]),
