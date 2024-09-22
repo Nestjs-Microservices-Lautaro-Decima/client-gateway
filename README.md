@@ -46,3 +46,11 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## PROD
+
+Ejecutar:
+
+```
+ docker build -f Dockerfile.prod -t client-gateway .
+```
